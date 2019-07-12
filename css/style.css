@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #F1F1F2
+}
+.wp-logo{
+    margin: 0 auto;
+    width:116px;
+    height:100px;
+}
+.admin-container{
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 320px;
+    text-align: center;
+    padding-top:20px;
+}
+.admin-form-container{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 100%;   
+    padding: 26px 24px 46px;
+    margin-top: 8px;
+    text-align: left;
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+.input-field{
+    display: block;
+    font-size: 24px;
+    width: 100%;
+    padding: 3px;
+    margin: 2px 6px 16px 0;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    color: #32373c;
+
+}
+.input-field:focus{
+    outline-color:#0673AA;
+}
+.input-label{
+    color: #72777c;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.log-in-button{
+    background: #0085ba;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    float: right;
+    height: 30px;
+    line-height: 28px;
+    padding: 0px 12px 2px;
+}
+.remember{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    text-align: left;
+    padding-left: 23px;
+    margin-top: 19px;
+}
+.form-link{
+    margin-top: 26px;
+    text-decoration: none;
+    color: #72777c;
+}
+.remember-details{
+    border: 1px solid #b4b9be;
+    transform: scale(1.3);
+}
